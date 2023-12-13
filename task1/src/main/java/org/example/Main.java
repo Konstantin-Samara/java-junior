@@ -82,7 +82,7 @@ public class Main {
                     names[i],
                     new Random().nextInt(20,60),
                     new Random().nextDouble(5000,50000),
-                    departments[new Random().nextInt(0,4)]);
+                    departments[new Random().nextInt(0,departments.length)]);
             employees.add(employee);
         }
     }
